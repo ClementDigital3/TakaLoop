@@ -6,40 +6,43 @@
     </linearGradient>
   </defs>
   
+  <!-- High-contrast background for browser tabs -->
+  <circle cx="50" cy="50" r="46" fill="#ffffff" stroke="#f1f5f9" stroke-width="2" />
+  
   <!-- Outer circular loop -->
   <path 
     d="M32 50C32 60 40 68 50 68C60 68 68 60 68 50C68 40 60 32 50 32" 
     stroke="url(#logo-grad)" 
-    stroke-width="7" 
+    stroke-width="6" 
     stroke-linecap="round" 
   />
   <path 
     d="M50 68C40 68 32 60 32 50C32 40 40 32 50 32C60 32 68 40 68 50" 
     stroke="#d1fae5" 
-    stroke-width="3.5" 
+    stroke-width="3" 
     stroke-linecap="round" 
-    stroke-dasharray="5 7" 
+    stroke-dasharray="4 6" 
   />
   
   <!-- Central Leaf element -->
   <path 
-    d="M50 16C50 16 63 29 63 40C63 49 56 55 50 55C44 55 37 49 37 40C37 29 50 16 50 16Z" 
+    d="M50 18C50 18 62 30 62 40C62 48 56 54 50 54C44 54 38 48 38 40C38 30 50 18 50 18Z" 
     fill="url(#logo-grad)" 
   />
   <path 
-    d="M50 25V47" 
+    d="M50 26V47" 
     stroke="white" 
     stroke-width="2" 
     stroke-linecap="round" 
   />
   <path 
-    d="M50 31C52.5 32 55 31 55 31" 
+    d="M50 32C52 33 54.5 32 54.5 32" 
     stroke="white" 
     stroke-width="1.5" 
     stroke-linecap="round" 
   />
   <path 
-    d="M50 37C47.5 38 45 37 45 37" 
+    d="M50 38C48 39 45.5 38 45.5 38" 
     stroke="white" 
     stroke-width="1.5" 
     stroke-linecap="round" 
