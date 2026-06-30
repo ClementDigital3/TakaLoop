@@ -1,0 +1,10 @@
+const router = require('express').Router();
+const c = require('../controllers/adminController');
+const { protect, authorize } = require('../middleware/auth');
+const auth = [protect, authorize('admin', 'officer')];
+router.get('/dashboard', ...auth, c.getDashboard);
+router.get('/users', ...auth, c.getUsers);
+router.put('/users/:id/verify', ...auth, c.verifyUser);
+router.put('/users/:id/toggle', ...auth, c.toggleUserStatus);
+router.put('/disputes/:id/resolve', ...auth, c.resolveDispute);
+module.exports = router;
